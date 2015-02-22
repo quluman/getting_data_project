@@ -4,7 +4,8 @@ Course Project Code Book
 The R script (run_analysis.R) processes data (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) in the following way:
 
 * Merges the training and test sets to create one data set 
-  #**merge train/X_train.txt and test/X_test.txt, to create a 10299x561 data frame containing the acutally sensor data
+  
+  **merge train/X_train.txt and test/X_test.txt, to create a 10299x561 data frame containing the acutally sensor data
   **merge train/y_train.txt and test/y_test.txt, to create a 10299x1 data frame descibing activity IDs.
   **merge train/subject_train.txt and test/subject_test.txt, to create a 10299x1 data frame describing subject IDs
 
