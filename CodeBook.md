@@ -9,9 +9,7 @@ The R script (run_analysis.R) processes data (https://d396qusza40orc.cloudfront.
   *merge train/y_train.txt and test/y_test.txt, to create a 10299x1 data frame descibing activity IDs.
   *merge train/subject_train.txt and test/subject_test.txt, to create a 10299x1 data frame describing subject IDs
 
-* Extracts only the measurements on the mean and standard deviation for each measurement, from features.txt. 
-
-  ***The result is a 10299x66 data frame
+* Extracts only the measurements on the mean and standard deviation for each measurement, from features.txt. The result is a 10299x66 data frame
 
 * Reads activity_labels.txt and applies descriptive activity names to name the activities in the data set:
 
